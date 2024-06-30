@@ -1,22 +1,25 @@
 import React from "react";
+import blog from '../assets/blog.svg'
+import blog2 from '../assets/blog.svg'
+import blog3 from '../assets/blog.svg'
 
 const Blog = () => {
   const blogs = [
     {
       id: 1,
       title: "Creating Streamlined Safeguarding Processes with OneRen",
-      image: "src/assets/blog.svg",
+      image: blog,
     },
     {
       id: 2,
       title:
         "What are your safeguarding responsibilities and how can you manage them? Readmore",
-      image: "src/assets/blog2.svg",
+      image: blog2,
     },
     {
       id: 3,
       title: "Revamping the Membership Model with Triathlon Australia Readmore",
-      image: "src/assets/blog3.svg",
+      image: blog3,
     },
   ];
   return (
