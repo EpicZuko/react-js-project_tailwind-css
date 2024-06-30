@@ -1,9 +1,13 @@
 import React from "react";
 import aboutImg from "../assets/about.svg";
+import member from "../assets/member.svg";
+import member3 from "../assets/member3.svg";
+import member4 from "../assets/member4.svg";
+import member2 from "../assets/member2.svg";
 
 const About = () => {
   return (
-    <div >
+    <div>
       {/* about text */}
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="about">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
@@ -44,7 +48,7 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="src/assets/member.svg" alt="" />
+                <img src={member} alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     2,245,341
@@ -53,7 +57,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="src/assets/member3.svg" alt="" />
+                <img src={member3} alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     828,867
@@ -64,7 +68,7 @@ const About = () => {
             </div>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="src/assets/member2.svg" alt="" />
+                <img src={member2} alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     46,328
@@ -73,7 +77,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="src/assets/member4.svg" alt="" />
+                <img src={member4} alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     1,926,436
