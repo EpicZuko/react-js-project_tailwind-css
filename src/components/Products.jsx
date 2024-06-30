@@ -66,37 +66,37 @@ const Products = () => {
                 <div>
                   <div className="flex items-center gap-8 flex-wrap">
                     <img
-                      src="/src/assets/icons/compony.svg"
+                      src="src/assets/icons/compony.svg"
                       alt="..."
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/icons/company2.svg"
+                      src="src/assets/icons/company2.svg"
                       alt="..."
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/icons/company3.svg"
+                      src="src/assets/icons/company3.svg"
                       alt="..."
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/icons/company4.svg"
+                      src="src/assets/icons/company4.svg"
                       alt="..."
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/icons/company5.svg"
+                      src="src/assets/icons/company5.svg"
                       alt="..."
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/icons/company6.svg"
+                      src="src/assets/icons/company6.svg"
                       alt="..."
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/icons/company7.svg"
+                      src="src/assets/icons/company7.svg"
                       alt="..."
                       className="cursor-pointer"
                     />

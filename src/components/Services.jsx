@@ -7,21 +7,21 @@ const Services = () => {
       title: "Membership Organisations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      images: "/src/assets/members/membership.svg",
+      images: "src/assets/members/membership.svg",
     },
     {
       id: 2,
       title: "National Associations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      images: "/src/assets/members/membership2.svg",
+      images: "src/assets/members/membership2.svg",
     },
     {
       id: 3,
       title: "Clubs And Groups",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      images: "/src/assets/members/membership3.svg",
+      images: "src/assets/members/membership3.svg",
     },
   ];
   return (
@@ -35,13 +35,13 @@ const Services = () => {
         </p>
         {/* company logo */}
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src="/src/assets/icons/compony.svg" alt="..." />
-          <img src="/src/assets/icons/company2.svg" alt="..." />
-          <img src="/src/assets/icons/company3.svg" alt="..." />
-          <img src="/src/assets/icons/company4.svg" alt="..." />
-          <img src="/src/assets/icons/company5.svg" alt="..." />
-          <img src="/src/assets/icons/company6.svg" alt="..." />
-          <img src="/src/assets/icons/company7.svg" alt="..." />
+          <img src="src/assets/icons/compony.svg" alt="..." />
+          <img src="src/assets/icons/company2.svg" alt="..." />
+          <img src="src/assets/icons/company3.svg" alt="..." />
+          <img src="src/assets/icons/company4.svg" alt="..." />
+          <img src="src/assets/icons/company5.svg" alt="..." />
+          <img src="src/assets/icons/company6.svg" alt="..." />
+          <img src="src/assets/icons/company7.svg" alt="..." />
         </div>
       </div>
       {/* services card */}

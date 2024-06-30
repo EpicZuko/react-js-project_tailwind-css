@@ -44,7 +44,7 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/member.svg" alt="" />
+                <img src="src/assets/member.svg" alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     2,245,341
@@ -53,7 +53,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/member3.svg" alt="" />
+                <img src="src/assets/member3.svg" alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     828,867
@@ -64,7 +64,7 @@ const About = () => {
             </div>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/member2.svg" alt="" />
+                <img src="src/assets/member2.svg" alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     46,328
@@ -73,7 +73,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/member4.svg" alt="" />
+                <img src="src/assets/member4.svg" alt="" />
                 <div>
                   <h4 className="text-2x1 text-neutralDGrey font-semibold ">
                     1,926,436
