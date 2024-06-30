@@ -1,4 +1,14 @@
 import React from "react";
+import members from "../assets/members/membership.svg";
+import members2 from "../assets/members/membership2.svg";
+import members3 from "../assets/members/membership3.svg";
+import compony from "../assets/icons/compony.svg";
+import company2 from "../assets/icons/company2.svg";
+import compnay3 from "../assets/icons/company3.svg";
+import company4 from "../assets/icons/company4.svg";
+import company5 from "../assets/icons/company5.svg";
+import company6 from "../assets/icons/company6.svg";
+import company7 from "../assets/icons/company7.svg";
 
 const Services = () => {
   const services = [
@@ -7,21 +17,21 @@ const Services = () => {
       title: "Membership Organisations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      images: "src/assets/members/membership.svg",
+      images: members,
     },
     {
       id: 2,
       title: "National Associations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      images: "src/assets/members/membership2.svg",
+      images: members2,
     },
     {
       id: 3,
       title: "Clubs And Groups",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      images: "src/assets/members/membership3.svg",
+      images: members3,
     },
   ];
   return (
@@ -35,13 +45,13 @@ const Services = () => {
         </p>
         {/* company logo */}
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src="src/assets/icons/compony.svg" alt="..." />
-          <img src="src/assets/icons/company2.svg" alt="..." />
-          <img src="src/assets/icons/company3.svg" alt="..." />
-          <img src="src/assets/icons/company4.svg" alt="..." />
-          <img src="src/assets/icons/company5.svg" alt="..." />
-          <img src="src/assets/icons/company6.svg" alt="..." />
-          <img src="src/assets/icons/company7.svg" alt="..." />
+          <img src={compony} alt="..." />
+          <img src={company2} alt="..." />
+          <img src={compnay3} alt="..." />
+          <img src={company4} alt="..." />
+          <img src={company5} alt="..." />
+          <img src={company6} alt="..." />
+          <img src={company7} alt="..." />
         </div>
       </div>
       {/* services card */}

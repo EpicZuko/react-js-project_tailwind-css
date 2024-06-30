@@ -1,7 +1,7 @@
 import React from "react";
 import blog from '../assets/blog.svg'
-import blog2 from '../assets/blog.svg'
-import blog3 from '../assets/blog.svg'
+import blog2 from '../assets/blog2.svg'
+import blog3 from '../assets/blog3.svg'
 
 const Blog = () => {
   const blogs = [

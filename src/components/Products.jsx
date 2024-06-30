@@ -1,6 +1,13 @@
 import React from "react";
 import aboutImg from "../assets/pamma.svg";
 import maecImg from "../assets/maec.svg";
+import compony from "../assets/icons/compony.svg";
+import company2 from "../assets/icons/company2.svg";
+import compnay3 from "../assets/icons/company3.svg";
+import company4 from "../assets/icons/company4.svg";
+import company5 from "../assets/icons/company5.svg";
+import company6 from "../assets/icons/company6.svg";
+import company7 from "../assets/icons/company7.svg";
 
 const Products = () => {
   return (
@@ -65,41 +72,13 @@ const Products = () => {
               <div>
                 <div>
                   <div className="flex items-center gap-8 flex-wrap">
-                    <img
-                      src="src/assets/icons/compony.svg"
-                      alt="..."
-                      className="cursor-pointer"
-                    />
-                    <img
-                      src="src/assets/icons/company2.svg"
-                      alt="..."
-                      className="cursor-pointer"
-                    />
-                    <img
-                      src="src/assets/icons/company3.svg"
-                      alt="..."
-                      className="cursor-pointer"
-                    />
-                    <img
-                      src="src/assets/icons/company4.svg"
-                      alt="..."
-                      className="cursor-pointer"
-                    />
-                    <img
-                      src="src/assets/icons/company5.svg"
-                      alt="..."
-                      className="cursor-pointer"
-                    />
-                    <img
-                      src="src/assets/icons/company6.svg"
-                      alt="..."
-                      className="cursor-pointer"
-                    />
-                    <img
-                      src="src/assets/icons/company7.svg"
-                      alt="..."
-                      className="cursor-pointer"
-                    />
+                    <img src={compony} alt="..." className="cursor-pointer" />
+                    <img src={company2} alt="..." className="cursor-pointer" />
+                    <img src={compnay3} alt="..." className="cursor-pointer" />
+                    <img src={company4} alt="..." className="cursor-pointer" />
+                    <img src={company5} alt="..." className="cursor-pointer" />
+                    <img src={company6} alt="..." className="cursor-pointer" />
+                    <img src={company7} alt="..." className="cursor-pointer" />
                     <div className="flex items-center gap-8">
                       <a
                         href="/"
